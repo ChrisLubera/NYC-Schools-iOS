@@ -8,4 +8,4 @@ The NYC Schools app is an app that displays all of the schools in the New York P
 
 # Anything I should know about the iOS version?
 
-Yes! Like other versions, ideally I'd be using the Firebase backend for this, but because I don't want to pay to keep the server running (or make it vulnerable to DDOS attacks and owe Google Cloud a lot of money), all of the data is just loaded locally.
+Yes! Like other versions, ideally I'd be using the Firebase backend for this, but because I don't want to pay to keep the server running (or make it vulnerable to DDOS attacks and owe Google Cloud a lot of money), all of the data is just loaded locally. Because of this, some of the error handling isn't ideal, because (as long as nothing is touched) the data won't have issues loading (famous last words...)
