@@ -56,7 +56,6 @@ class DetailViewModel: ObservableObject {
     return false
   }
   
-  // These methods should never be called if SAT is nil, however we will return "Error" just in case it is nil
   func returnSATMath() -> String {
     return SAT?.returnMathScore() ?? "Error"
   }
